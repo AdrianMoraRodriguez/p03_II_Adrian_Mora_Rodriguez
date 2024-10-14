@@ -11,7 +11,7 @@ public class ej12 : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update() {
+    void FixedUpdate() {
       float moveH = Input.GetAxis("Horizontal");
       float moveV = Input.GetAxis("Vertical");
       if (moveH != 0 || moveV != 0) {
